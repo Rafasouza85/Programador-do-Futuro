@@ -39,7 +39,7 @@ async function cliqueiNoBotao() {
         body: JSON.stringify({ pergunta: textoInput })
     })
 
-    let resultado = await resposta.json()
+    let resultado = await resposta.json() 
 
     let info = JSON.parse(resultado.resposta)
 
